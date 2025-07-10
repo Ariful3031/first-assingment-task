@@ -12,12 +12,23 @@
     font-style: normal;
 }
 
+/* head styles */
+.header {
+    /* background-image: url(/../B12A01-landing-launchpad/Assets/hero-png.png); */
+    background-color: brown;
+}
+
+
+
 /* nav styles */
 .nav-tittle {
     display: flex;
     width: 1140px;
     height: 151px;
     align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .nav-header {
@@ -39,8 +50,23 @@
 }
 
 /* banner styles */
-/* .banner-little {
+.banner-head {
+    height: 237px;
+    max-width: 905px;
+    padding-top: 158px;
+    padding-right: 267px;
+    padding-left: 267px;
+}
+
+div ul li {
+    list-style: none;
+}
+
+.banner-little {
     font-size: 65px;
     font-weight: bold;
     color: #252432;
-} */
+    text-align: center;
+    align-items: center;
+
+}
