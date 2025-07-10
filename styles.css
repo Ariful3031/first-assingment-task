@@ -14,8 +14,8 @@
 
 /* head styles */
 .header {
-    /* background-image: url(/../B12A01-landing-launchpad/Assets/hero-png.png); */
-    background-color: brown;
+    background-image: url(/../assingment/Assets/hero-png.png);
+
 }
 
 
@@ -37,15 +37,21 @@
     color: #4E47FF;
 }
 
+nav {
+    width: 1440;
+    margin: auto;
+}
+
+
 .nav-button {
     font-size: 16px;
-    font-weight: bold;
     color: #FFFFFF;
     background-color: #4E47FF;
     border-radius: 10px;
     width: 132px;
     height: 48px;
     border: none;
+
 
 }
 
@@ -68,5 +74,53 @@ div ul li {
     color: #252432;
     text-align: center;
     align-items: center;
+}
+
+/* action styles start */
+.div-action {
+    display: flex;
+    height: 328px;
+    width: 1140px;
+    margin: 116px 159px 0px 141px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.div-contain {
+    width: 517px;
+    height: 206px;
+}
+
+.div-tittle {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 23px;
+}
+
+.div-subtittle {
+    font-size: 24px;
+    font-weight: 400px;
+    color: #252432;
+    line-height: 30px;
+    margin-bottom: 23px;
+}
+
+.action-button {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    width: 229px;
+    height: 40px;
+    border: none;
+    text-align: center;
+}
+
+.div-image {
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
 
 }
