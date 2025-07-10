@@ -1,0 +1,46 @@
+/* inter-normal */
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* raleway-normal */
+.raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* nav styles */
+.nav-tittle {
+    display: flex;
+    width: 1140px;
+    height: 151px;
+    align-items: center;
+}
+
+.nav-header {
+    font-size: 34px;
+    font-weight: 900px;
+    color: #4E47FF;
+}
+
+.nav-button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    width: 132px;
+    height: 48px;
+    border: none;
+
+}
+
+/* banner styles */
+/* .banner-little {
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+} */
