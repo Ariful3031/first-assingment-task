@@ -284,15 +284,17 @@ main {
 /* Ready to focus better */
 
 .div-skillers {
-    /* display: flex; */
+
     max-width: 1440px;
     height: 697px;
     align-items: center;
     text-align: center;
+    background-color: #FFFFFF;
     /* border: 20px solid black; */
     margin-top: 137px;
-    box-shadow: 0p 4px 4px 0px #FFFFFF;
+    box-shadow: -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+    border: none;
 }
 
 .ready-tittle {
@@ -325,4 +327,77 @@ main {
     margin: 0 auto;
     text-align: center;
     align-items: center;
+}
+
+/* footer colmun start */
+.footer-section {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 115px;
+    margin: 93px auto;
+
+
+}
+
+.footer-column {
+    text-align: left;
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.input-tittle {
+    font-size: 18px;
+    font-weight: 500px;
+    color: #000000;
+    text-align: left;
+    margin-top: 71px;
+
+}
+
+.input-text {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    font-size: 20px;
+    font-weight: 400px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    margin: 20px 0px;
+    justify-content: left;
+}
+
+.footer-button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 525px;
+    height: 62px;
+    background-color: #4E47FF;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    border: none;
+
+}
+
+.input-email {
+    width: 497px;
+    height: 70px;
+    background-color: #FFFFFF;
+    box-shadow: -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    padding: 20px 10px;
+}
+
+.input-name {
+    width: 497px;
+    height: 135px;
+    background-color: #FFFFFF;
+    box-shadow: -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    padding: 20px 10px;
+
 }
