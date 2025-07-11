@@ -196,7 +196,6 @@ main {
     margin-top: 40px;
 }
 
-
 .item-tittle {
     font-size: 80px;
     font-weight: bold;
@@ -215,7 +214,6 @@ main {
 .skills {
     max-width: 1440px;
     margin: 0 auto;
-
 }
 
 .user-skills-container {
@@ -223,9 +221,6 @@ main {
     gap: 20px;
     /* background-color: #FFFFFF; */
     justify-content: space-around;
-
-
-
 }
 
 .user-skill-container {
@@ -234,10 +229,6 @@ main {
     padding: 24px;
     box-shadow: -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25);
     border-radius: 14px;
-
-
-
-
 }
 
 .our-user-bottom-container {
@@ -247,12 +238,12 @@ main {
 
 }
 
-
 .user-section-tittle {
     font-size: 42px;
     font-weight: bold;
     color: #252432;
     text-align: center;
+    margin: 137px auto 50px;
 }
 
 .suer-tittle {
@@ -265,7 +256,6 @@ main {
     font-size: 16px;
     font-weight: 400px;
     color: #1E1E1E;
-
 }
 
 .user-supdescription {
@@ -279,11 +269,60 @@ main {
     font-size: 16px;
     font-weight: 400px;
     color: #B3B3B3;
-
 }
 
 .our-user-img {
     height: 40px;
     width: 40px;
 
+}
+
+.our-user-img {
+    border-radius: 50px;
+}
+
+/* Ready to focus better */
+
+.div-skillers {
+    /* display: flex; */
+    max-width: 1440px;
+    height: 697px;
+    align-items: center;
+    text-align: center;
+    /* border: 20px solid black; */
+    margin-top: 137px;
+    box-shadow: 0p 4px 4px 0px #FFFFFF;
+    border-radius: 10px;
+}
+
+.ready-tittle {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin: 71px 0px 20px;
+    text-align: center;
+}
+
+.ready-description {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.ready-button {
+    justify-content: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.ready-img {
+    display: flex;
+    border-radius: 48px;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
 }
