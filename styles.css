@@ -13,10 +13,16 @@
 }
 
 /* head styles */
-header {
-    background-image: url("Assets/hero-png.png");
 
+. .head {
+    max-width: 1440px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
+
+header {}
 
 .header-button {
     text-align: center;
@@ -400,4 +406,56 @@ main {
     border: none;
     padding: 20px 10px;
 
+}
+
+/* footer styles start */
+.footer-heading {
+
+    display: flex;
+    display: block;
+    max-width: 1440px;
+
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: ;
+    background-color: #FFFFFF;
+    border: none;
+    box-shadow: -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.footer-container {
+
+    display: flex;
+    gap: 47px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-titlle {
+    align-items: center;
+    font-size: 100px;
+    font-weight: 900px;
+    color: #4E47FF;
+    width: 120px;
+    margin: 0 auto;
+    align-items: center;
+    j
+}
+
+.footer-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #8987A1;
+}
+
+.footer-fornt {
+    font-size: 16px;
+    font-weight: bold;
+    color: #8987A1;
 }
